@@ -1830,6 +1830,10 @@
 	.h_iframe {
 		width:100%;
 	}
+/* p */
+	p{
+		font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+	}
 /* Box */
 	.box {
 		margin-bottom: 2rem;
@@ -1837,7 +1841,6 @@
 		border-radius: 10px;
 		box-shadow: 0 0 10px rgba(0,0,0,1.00);
 	}
-
 		.box .image.fit {
 			margin: 0;
 			border-radius: 10px;
