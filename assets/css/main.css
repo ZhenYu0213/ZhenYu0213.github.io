@@ -1834,6 +1834,10 @@
 	p{
 		font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
 	}
+	img{
+		max-width: 100%;
+		height: auto;
+	}
 /* Box */
 	.box {
 		margin-bottom: 2rem;
@@ -1851,7 +1855,6 @@
 				border-radius: 10px;
 				box-shadow: 0 0 10px rgba(0,0,0,1.00);
 			}
-
 		.box header h2 {
 			margin-bottom: 2rem;
 		}
@@ -2357,12 +2360,15 @@
 		display: inline-block;
 		position: relative;
 		max-width: 100%;
+		height: auto;
 	}
 
 		.image img {
 			border-radius: 10px;
 			box-shadow: 0 0 10px rgba(0,0,0,1.00);
 			display: block;
+			max-width: 100%;
+			height: auto;
 		}
 
 		.image.left, .image.right {
